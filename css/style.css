@@ -1,0 +1,314 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+.top_nav li, .menu_list li{
+    display: inline;
+
+}
+.top_nav a{
+    color: #bebebe;
+    font-family: "Arial MT";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 45px;
+}
+a:hover{
+    text-decoration: none;
+}
+.nav_background{
+    background: #292929;
+
+}
+.top_nav li:nth-child(n+2){
+    padding:  0 0 0 15px;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+}
+.enter a{
+    color: #bebebe;
+}
+.registration a{
+    color: #efb247;
+}
+.options{
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.nav_background .row{
+    margin: 0 auto;
+}
+.eng, .rus{
+    height: 21px;
+    width: 20px;
+
+}
+.users,.change_lng{
+    display: flex;
+    padding: 4% 0 0 ;
+}
+.change_lng{
+    padding-left: 50px;
+}
+.enter:before{
+    content: '';
+    display: inline-block;
+    background: url("../img/enter.png") no-repeat;
+    width: 11px;
+    height: 12px;
+    vertical-align: middle;
+    padding-right: 16px;
+}
+.enter{
+    padding-right: 10px;
+}
+
+.registration:before{
+    line-height: 20%;
+    content: '';
+    display: inline-block;
+    background: url("../img/registration.png") no-repeat;
+    width: 16px;
+    height: 15px;
+    vertical-align: middle;
+    padding-right: 18px;
+
+}
+.rus{
+    margin:  0 0 0 10px;
+}
+.footer_background{
+    background: url("../img/shape-1.png") no-repeat;
+    background-size: 100%   100%;
+    padding-top: 20px;
+}
+.logo{
+    background: url("../img/logo.png") no-repeat;
+    width: 358px;
+    height: 91px;
+}
+.footer_row{
+    margin: 0 auto;
+    padding: 0 0 25px 0;
+}
+.pocket{
+    background: url("../img/package.png") no-repeat;
+    height: 76px;
+    width: 76px;
+    /*margin-left: 5px;*/
+    padding: 0;
+    /*margin: 15px 0 0 0;*/
+}
+.basket_box{
+    margin: 0;
+    padding: 0;
+}
+.basket{
+    color: #ffffff;
+    font-family: Tahoma;
+    padding: 0;
+}
+.name_basket{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+}
+.goods, .price{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.no_phone a:hover{
+    text-decoration: underline;
+}
+.phone_numbers{
+    color: #ffffff;
+    font-family: "Arial - Bold MT";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+.phone_numbers span{
+    font-size: 18px;
+}
+.phone{
+    /*content: '';*/
+    /*display: inline-block;*/
+    /*background: url("../img/mtc.png") no-repeat;*/
+    /*width: 20px;*/
+    /*height: 20px;*/
+    vertical-align: text-bottom;
+    padding-right: 5px;
+}
+.second_phone:before{
+    content: '';
+    display: inline-block;
+    background: url("../img/kyivstar.png") no-repeat;
+    width: 22px;
+    height: 21px;
+    vertical-align: text-bottom;
+    padding-right: 16px;
+}
+
+
+.loop{
+    background: url("../img/search.png") no-repeat;
+    width: 22px;
+    height: 23px;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
+.search{
+    position: relative;
+
+}
+.field_serch{
+    position: relative;
+    width: 324px;
+    height: 31px;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.56);
+    background-color: #ffffff;
+    color: #b2b2b2;
+    font-family: "Arial MT";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 45px;
+    /* Text style for "..." */
+    text-transform: uppercase;
+    padding-left: 11px;
+    border-radius: 10px;
+    border: none;
+
+}
+.no_phone{
+    text-align: end;
+    padding-right: 20px;
+    color: #ffffff;
+    height: 10%;
+    /*margin: 15px 0 0 0;*/
+}
+.no_phone a{
+    color: #ffffff;
+}
+.phone_numbers .col-md-6{
+    height: 36px;
+}
+.menu_list{
+    background-color: #484848;
+    background-image: linear-gradient(to top, #334d5c 0%, #355e76 100%);
+border-radius: 5px;
+    padding: 0 25px;
+    margin: -25px 0 0 0;
+    /*text-transform: uppercase;*/
+}
+.menu_list li{
+    color: #e4e4e4;
+    font-family: "Arial - Bold MT";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 45px;
+    text-transform: uppercase;
+    /*padding: 0 22px 0 0;*/
+
+}
+.vertical_line{
+    /*content: '';*/
+    display: inline-block;
+    background: url("../img/line-menu.png") no-repeat;
+    width: 2px;
+    height: 49px;
+    vertical-align: middle;
+    margin: 0 18px;
+
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1000px;
+    }
+}
+.banner{
+    margin: 20px auto 0;
+    background-size: 100% 100%;
+    /*position: relative;*/
+}
+.arrow_to_right{
+    background: url("../img/arrow-to-right.png") no-repeat;
+    width: 22px;
+    height: 63px;
+    /*position: absolute;*/
+    margin: 0 -170px 0 0;
+}
+.arrow_to_left{
+    background: url("../img/arrow-to-left.png") no-repeat;
+    width: 22px;
+    height: 63px;
+    /*position: absolute;*/
+    margin: 0 0 0 -170px;
+}
+.menu,.logo {
+    padding: 0;
+}
+#popup{
+    position: absolute;
+    border-radius: 10px;
+    margin: -17px 0 0 5px;
+    width: 95%;
+    background: #ffffff;
+    padding: 5px 10px 5px 15px;
+    border: 1px solid grey;
+    list-style: none;
+visibility: hidden;
+}
+.line_list{
+    color: grey;
+    /*width: 80%;*/
+}
